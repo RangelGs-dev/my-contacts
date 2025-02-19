@@ -1,0 +1,23 @@
+# Ignorar node_modules e dependências
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar logs e cache
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.cache
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar pastas geradas pelo editor
+.vscode/
